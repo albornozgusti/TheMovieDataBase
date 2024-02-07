@@ -1,2 +1,6 @@
 *.ini
-js/.vs
+js/.vs/
+js/.vs/*.*
+css/*.ini
+img/*.ini
+desktop.ini
