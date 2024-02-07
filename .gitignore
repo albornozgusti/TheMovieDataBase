@@ -5,3 +5,4 @@ js/.vs/*.*
 css/*.ini
 img/*.ini
 desktop.ini
+.env
