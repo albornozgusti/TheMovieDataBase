@@ -86,7 +86,7 @@ function peticionListaPeliculas(texto, lanzamiento, filtro) {
 
     $.ajax({
         type: "GET",
-        url: "http://www.omdbapi.com/?apikey=",
+        url: "http://www.omdbapi.com/?apikey="+API_KEY,
         data: {
             s: texto,
             y: lanzamiento,
@@ -141,7 +141,7 @@ function peticionDescCorta(imdbID, id) {
      */
     $.ajax({
         type: "GET",
-        url: "http://www.omdbapi.com/?apikey=",
+        url: "http://www.omdbapi.com/?apikey="+API_KEY,
         data: {
             i: imdbID,
             type: "movie",
@@ -188,7 +188,7 @@ function peticiondesclarga(imdbID) {
 
     $.ajax({
         type: "GET",
-        url: "http://www.omdbapi.com/?apikey=",
+        url: "http://www.omdbapi.com/?apikey="+API_KEY,
         data: {
             i: imdbID,
             type: "movie",
