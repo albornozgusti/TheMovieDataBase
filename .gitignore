@@ -1,3 +1,4 @@
+*/*.ini
 *.ini
 js/.vs/
 js/.vs/*.*
